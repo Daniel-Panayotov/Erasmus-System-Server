@@ -1,3 +1,6 @@
+hidden.js
+*.pdf
+
 # Logs
 logs
 *.log
