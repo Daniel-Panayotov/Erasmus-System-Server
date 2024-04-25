@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const { promisify } = require('util');
-const { secret } = require('../config/hidden');
+const { secret } = require('../config/secret');
 
 function sign(secret, options, payload) {
 	return promisify(jwt.sign)(payload, secret, options);
